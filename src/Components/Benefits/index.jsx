@@ -4,18 +4,18 @@ import './styles.css';
 
 const weeklyVideoCards = [
   {
-    title: "Build #1 - Mechanical Engineering",
-    description: "For Build #1, Mark shares his end-to-end engineering process. You’ll learn about pneumatic systems, motors, springs, and more mechanical engineering topics to design, build, and optimize your first build: a machine that solves a food-related problem.",
+    title: "Projeto #1 - Engenharia Mecânica",
+    description: "No projeto #1, Mark irá compartilhar seu processo de engenharia do início ao fim. Você aprenderá sobre sistemas pneumaticos, motores, molas e mais tópicos de engenharia mecânica para produzir seu primeiro projeto: uma máquina que resolva problemas relacionados a comidas/fome.",
     source: "https://res.cloudinary.com/monthly/video/upload/monthly-admin-images/mark-rober-engineering/Mark_Rober_Promo_1_sap6dn.mp4"
   },
   {
-    title: "Build #2 - Electrical Engineering",
-    description: "For Build #2, Mark teaches you electrical engineering techniques for your second build: a device that displays or creates art. You’ll dive into circuits, Arduino, sensors, code, and more. You’ll finish with another personalized, unique, and shareable build.",
+    title: "Build #2 - Engenharia Elétrica",
+    description: "Para o projeto #2, Mark ensina técnicas de engenharia elétrica para o seu segundo projeto: um dispositivo que exibe ou cria arte. Você mergulhará em circuitos, Arduino, sensores, código e muito mais. Você vai terminar com outra construção personalizada, única e compartilhável.",
     source: "https://res.cloudinary.com/monthly/video/upload/monthly-admin-images/mark-rober-engineering/Mark_Rober_Promo_2_ezvcem.mp4"
   },
   {
-    title: "Build #3 - Advanced Techniques",
-    description: "For Build #3, you’ll use both mechanical and electrical engineering to create a device that helps you form a good habit or break a bad one. You’ll also learn about some of Mark’s favorite advanced techniques, including CAD and 3D printing.",
+    title: "Build #3 - Técnicas Avançadas",
+    description: "Para o projeto #3, você usará engenharia mecânica e elétrica para criar um dispositivo que o ajudará a formar um bom hábito ou a quebrar um mau. Você também aprenderá sobre algumas das técnicas avançadas favoritas de Mark, incluindo CAD e impressão 3D.",
     source: "https://res.cloudinary.com/monthly/video/upload/monthly-admin-images/mark-rober-engineering/updated_promo_3_rober_o9lwi2.mp4"
   },
 ]
@@ -26,9 +26,9 @@ function Benefits() {
 
       <div className="title-wraper">
         <div className="title-container">
-          <div className="secondary-title">AN IMMERSIVE LEARNING EXPERIENCE</div>
-          <div className="main-title">Engineer 3 creative builds in 30 days</div>
-          <div className="description">Former NASA engineer and YouTuber Mark Rober teaches you everything he knows in this one-month class. Immerse yourself in the process and leave the class with 3 personalized engineering builds and a new set of lifelong creative engineering skills.</div>
+          <div className="secondary-title">UMA EXPERIÊNCIA DE APRENDIZADO IMERSIVA</div>
+          <div className="main-title">Crie 3 projetos criativos em 30 dias</div>
+          <div className="description">O ex-engenheiro da NASA e YouTuber Mark Rober ensina tudo o que sabe nesta aula de um mês. Mergulhe no processo e saia da classe com 3 construções de engenharia personalizadas e um novo conjunto de habilidades de engenharia criativa para toda a vida.</div>
         </div>
       </div>
 

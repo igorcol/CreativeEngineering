@@ -4,7 +4,7 @@ import './styles.css';
 import {PlayCircleOutline} from "@material-ui/icons"
 import { useState,useRef, useEffect } from 'react';
 
-function CoursesHero() {
+function Destaque() {
 
   const [timerDays, setTimerDays]       = useState('00');
   const [timerHours, setTimerHours]     = useState('00');
@@ -14,7 +14,7 @@ function CoursesHero() {
   let interval = useRef()
 
   function startTimer() {
-    const countdownDate = new Date('August 6, 2021 00:00').getTime()
+    const countdownDate = new Date('December 23, 2021 00:00').getTime()
 
     interval = setInterval(() => {
       const now = new Date().getTime()
@@ -50,11 +50,11 @@ function CoursesHero() {
 
   const timerData = [
     {
-      title: "DAYS",
+      title: "DIAS",
       content: timerDays
     },
     {
-      title: "HRS",
+      title: "HORAS",
       content: timerHours
     },
     {
@@ -62,7 +62,7 @@ function CoursesHero() {
       content: timerMinutes
     },
     {
-      title: "SEC",
+      title: "SEG",
       content: timerSeconds
     },
   ]
@@ -76,17 +76,17 @@ function CoursesHero() {
             <div className="titleSection">    
                 <img src="assets/wave.png" className="wave-image" />
                 <div className="tittleContainer">
-                  <h2 className="taught-by">Igor Colombini Teaches</h2>
-                  <h1 className="main-tittle">Creative Engineering</h1>
-                  <div className="main-title-description">Become a creative engineer in 30 days. During this one-month class, learn to use engineering and science to bring your creative ideas to life. Finish the class with 3 original engineering builds of your own.</div>
+                  <h2 className="taught-by">Destaque</h2>
+                  <h1 className="main-tittle">Engenharia Criativa</h1>
+                  <div className="main-title-description">Se torne um engenheiro criativo em 30 dias. Durante um mês, aprenda a usar a engenharia e a ciência para trazer suas ideias a realidade.</div>
                 </div>
             </div>
             <div className="enroll-section">
                   <div className="buttonContainer">
-                    <button className="enroll-button">Enroll Now</button>
+                    <button className="enroll-button">Quero me inscrever</button>
                   </div>
                   <div className="dateContainer">
-                    <div className="enroll-date">Enrollment closes on August 6:</div>
+                    <div className="enroll-date">Inscrições encerram dia 23 de dezembro:</div>
 
                     <div className="countdown-center-container">
                       {
@@ -131,4 +131,4 @@ function CoursesHero() {
 
 
 
-export default CoursesHero;
+export default Destaque;

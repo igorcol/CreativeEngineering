@@ -18,9 +18,9 @@ function Instructor() {
         <div className="instructor-right">
             <img src="assets/wave.png" className="wave-image" />
             <div className="instructor-title-container">
-                <div className="instructor-title">Learn from the best</div>
+                <div className="instructor-title">Aprenda com o melhor</div>
                 <div className="instructor-name">Mark Rober</div>
-                <div className="instructor-description ">Mark Rober is an inventor and a former Apple & NASA engineer, where he spent 7 years working on the Curiosity rover. You may know him from his YouTube channel, where he has 1.6 billion views and nearly 15 million subscribers. His long list of extraordinary creations includes an automatic-bullseye dartboard, a glitter bomb package thief trap, and a rocket-powered golf club. He’s gone swimming with sharks, shared meatless burgers with Bill Gates, and built April Fools’ Day pranks with Jimmy Kimmel—all in the name of science.</div>
+                <div className="instructor-description ">Mark Rober é um inventor e ex-engenheiro da Apple e da NASA, onde passou 7 anos trabalhando no rover Curiosity. Você pode conhecê-lo de seu canal no YouTube, onde ele tem 1,6 bilhão de visualizações e quase 15 milhões de assinantes. Sua longa lista de criações extraordinárias inclui um alvo de dardos automático, uma armadilha para ladrões com bomba de glitter e um taco de golfe movido a foguete. Ele foi nadar com tubarões, compartilhou hambúrgueres sem carne com Bill Gates e fez travessuras do Dia da Mentira com Jimmy Kimmel - tudo em nome da ciência.</div>
             </div>
         </div>
 

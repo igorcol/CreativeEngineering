@@ -1,8 +1,11 @@
 import React from 'react';
+
+import Main from '../../Components/Main'
 import Benefits from '../../Components/Benefits';
-import CoursesHero from '../../Components/CoursesHero';
+import Destaque from '../../Components/Destaque';
 import Details from '../../Components/Details';
-import Instructor from '../../Components/Instructor';
+import Cursos from '../../Components/Cursos'
+import Feedback from '../../Components/Feedback'
 
 import './styles.css';
 
@@ -10,10 +13,12 @@ function Landing() {
   return (
     <div className="LandingPage">
 
-      <CoursesHero/>
+      <Main/>
+      <Destaque/>
       <Details/>
       <Benefits/>
-      <Instructor/>
+      <Cursos/>
+      <Feedback/>
 
     </div>
   );

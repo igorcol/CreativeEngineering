@@ -1,26 +1,31 @@
 import React from 'react';
 
 import './styles.css';
+import { LINKS } from './links'
 
 function Header() {
   return (
-    <div className="topBar">
-      <div className="topbarContainer">
+    <div className="header-container">
 
-        <div className="headerLogo">weekly</div>
-
-        <div className="linksContainer">
-          <button className="linkButton">Testimonials</button>
-          <button className="linkButton">Price</button>
-          <button className="linkButton">Question?</button>
-          <button className="linkButton"> Gift</button>
-
-          <div className="profile">
-            <img src="assets/person.jpeg" className="profileImg" />
-          </div>
+        <div className="header-left">
+            <div className="header-logo">
+              <img src="images/icon.png" className="header-logo-image" />
+            </div>
         </div>
 
-      </div>
+        <div className="header-right">
+            <ul className="header-links-list">
+              {
+                LINKS.map(item => (
+                  <li className="header-link">
+                    <span className="link-name">{item.title}</span>
+                  </li>
+                ))
+              }
+            </ul>
+            <div className="header-user"></div>
+        </div>
+
     </div>
   );
 };

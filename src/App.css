@@ -1,3 +1,7 @@
+:root {
+  --grey-blue: #2C2E37;
+  --blue: #6B88F2;
+}
 
 * {
   padding: 0;
